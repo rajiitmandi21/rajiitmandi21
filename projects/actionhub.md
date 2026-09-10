@@ -1,22 +1,36 @@
 # ActionHub
 
-**Status:** Private project
+**Status:** Private macOS project
 
-ActionHub is an AI-first productivity and action orchestration project focused on converting natural-language intent into structured tasks and executable workflows.
+ActionHub is a native macOS productivity utility that turns the MacBook notch area into a **Dynamic Island-style command center** for quick actions and live activities.
 
-## Focus
+It is built around a compact hover-to-reveal interface that keeps useful controls and status close to the notch without taking over the desktop.
 
-- Natural-language task creation
-- Structured field inference
-- Human confirmation and correction
-- Assignee matching
-- Planning and prioritization
-- Action-oriented agent workflows
-- Integrations with productivity systems
+## What it does
 
-The source repository is private. This page documents the product at a high level without exposing private implementation details.
+- Dynamic Island-style notch interface
+- Hover-to-reveal interaction
+- Quick actions from the notch area
+- Live camera preview
+- Quick timers with notifications
+- Now Playing detection for media
+- macOS Shortcuts access
+- Activity queue with multiple live activities
+- Customizable position, size, appearance, and auto-hide behavior
+- Launch-at-login support
+
+## macOS stack
+
+- SwiftUI
+- AppKit
+- Combine
+- AVFoundation
+- Swift Package Manager
+
+The source repository is private. This profile page intentionally documents the product at a high level without exposing private implementation details.
 
 ## Links
 
 - Portfolio: https://rajsharma.space
 - Visual portfolio: https://new.rajsharma.space
+- Project site: https://actionhub.rajsharma.space
