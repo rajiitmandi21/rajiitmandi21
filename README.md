@@ -18,9 +18,9 @@ Private, local-first meeting intelligence for macOS. SmaranQ captures conversati
 [Website](https://smaranq.com) · [Project overview](projects/smaranq.md)
 
 ### ActionHub
-An AI-first productivity and action orchestration project focused on turning natural-language intent into structured tasks and executable workflows.
+A native macOS productivity utility that turns the MacBook notch into a Dynamic Island-style command center for quick actions and live activities, including timers, camera preview, media status, shortcuts, and an activity queue.
 
-[Project overview](projects/actionhub.md)
+[Project overview](projects/actionhub.md) · [Project site](https://actionhub.rajsharma.space)
 
 ### OrgSmith
 A hierarchical AI organizational simulator and execution engine built around structured escalation, human-in-the-loop control, artifact-first execution, and observable multi-agent workflows.
