@@ -1,12 +1,20 @@
-# Sparkpad
+# SparkPad
 
 **Status:** Private project
 
-Sparkpad is a focused workspace experiment for fast capture, structured thinking, and lightweight AI-assisted organization.
+SparkPad is a lightweight browser-based Markdown editor for quick notes and technical writing.
 
-The project explores how to reduce friction between an idea appearing and that idea becoming useful, searchable context.
+## Features
 
-The source repository is private. This page intentionally documents only the product-level concept.
+- GitHub Flavored Markdown
+- Live edit / preview workflow
+- Syntax-highlighted code blocks
+- KaTeX math rendering
+- Mermaid diagrams
+- Browser `localStorage` autosave for content and theme
+- Markdown file export
+
+The app is frontend-only and intentionally lightweight rather than an AI knowledge-management product.
 
 ## Links
 
