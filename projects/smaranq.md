@@ -4,19 +4,25 @@
 **Platform:** macOS  
 **Website:** https://smaranq.com
 
-SmaranQ is a private, local-first meeting intelligence app for macOS. It captures conversation and screen context, recalls relevant memory, and surfaces the right information while a conversation is happening.
+SmaranQ is a private, local-first meeting-intelligence app for macOS. It captures microphone, system-audio and screen context, performs rolling local transcription and on-device OCR, retrieves relevant context from approved knowledge sources, and surfaces concise real-time intelligence while a conversation is happening.
 
-Its signature surface is **Q**, a compact real-time intelligence HUD designed to surface concise talking points, supporting context, and sources without turning the experience into another chat window.
+Its signature surface is **Q**, a compact private HUD designed to surface one useful talking point first, with supporting context and sources available when needed rather than presenting another chat interface.
 
-## Product direction
+## Current capabilities
 
-- Local-first capture and transcription
-- Contextual memory across sessions
-- Real-time question/query detection
-- Compact private HUD for live cues
-- Knowledge retrieval from approved sources
-- Post-session review and follow-up
-- Screen-aware workflows such as Smart Snip and OCR
+- Separate microphone, system-audio and screen capture
+- Rolling local Whisper transcription
+- On-device OCR for captured screen regions
+- Snapshots and Smart Snip-style region capture
+- Private live intelligence HUD
+- Shared presentation annotations
+- Local retrieval over session and project context
+- Configurable external model provider for answer generation
+- Persistent local session artifacts and cited answers
+
+## Privacy boundary
+
+Capture, session storage, transcription, OCR, document chunking and retrieval are designed to run locally. Generated answers can use an explicitly configured external model provider; core recording, transcription, OCR and retrieval artifacts continue to work without one.
 
 ## Positioning
 
@@ -24,7 +30,7 @@ Its signature surface is **Q**, a compact real-time intelligence HUD designed to
 
 Question in. Context recalled. Cue out.
 
-The product is currently in alpha and under active development.
+SmaranQ is currently in alpha and under active development.
 
 ## Links
 
